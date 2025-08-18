@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+*{
+    box-sizing: border-box;
+     line-height: 1;
+     scrollbar-width: thin;
+     scroll-behavior: smooth;
+}
+
+.bt-hover:hover{
+
+    background-color: rgb(7, 104, 239);
+    color: black;
+    transition: .2s ease-in-out;
+}
+.bt-hover:active{
+    transform: scale(0.95);
+}
+
+.cardhover:hover{
+    border: 1px solid rgba(145, 145, 145, 0.712);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.deals1-shadow{
+    box-shadow: 10px 10px #99f;
+}
+
+.sidebar-bg{
+    background: #242424;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.userbd{
+    border: 1px solid gray;
+    padding: 2px 2px;
+    border-radius: 10px;
+    background-color: rgba(61, 59, 59, 0.269);
+    color: gray;
+}
